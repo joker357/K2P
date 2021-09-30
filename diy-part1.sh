@@ -14,8 +14,8 @@
 #sed -i 's/^#\(.*helloworld\)/\1/' feeds.conf.default
 
 # Add a feed source
-src-git kenzo https://github.com/kenzok8/openwrt-packages
-src-git small https://github.com/kenzok8/small
+echo 'src-git kenzo https://github.com/kenzok8/openwrt-packages' >>feeds.conf.default
+echo 'src-git small https://github.com/kenzok8/small' >>feeds.conf.default
 
 #unblockmusic&nk
 cd openwrt/package && git clone -b 2 https://github.com/joker357/feed-netkeeper.git && git clone https://github.com/immortalwrt/luci-app-unblockneteasemusic
