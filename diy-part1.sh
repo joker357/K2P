@@ -18,4 +18,4 @@ echo 'src-git kenzo https://github.com/kenzok8/openwrt-packages' >>feeds.conf.de
 echo 'src-git small https://github.com/kenzok8/small' >>feeds.conf.default
 
 #unblockmusic&nk
-cd openwrt/package && git clone -b 2 https://github.com/joker357/feed-netkeeper.git && git clone https://github.com/immortalwrt/luci-app-unblockneteasemusic
+cd package && git clone -b 2 https://github.com/joker357/feed-netkeeper.git && git clone https://github.com/immortalwrt/luci-app-unblockneteasemusic
